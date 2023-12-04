@@ -1,0 +1,44 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(40, 129, 197, 0.94);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(254, 254, 254);
+    border-radius: 15px;
+    width: 15rem;
+    padding: 15px 12px;
+    margin: 30px auto;
+    position: relative;
+}
+input[type="button" ]{
+    background-color: rgb(140, 196, 248);
+    border: none;
+    color: navy;
+    width: 100%;
+    padding: 8px 6px;
+    border-radius: 6px;
+    margin: 5px 2px;
+    font-size: large;
+}
+input[type="text"]{
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 12px 0px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: rgb(170, 213, 253);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: rgb(80, 133, 170);
+}
